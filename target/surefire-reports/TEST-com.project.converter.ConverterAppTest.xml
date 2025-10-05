@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.project.converter.ConverterAppTest" time="0.129" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/user/Documents/code/sport_betting_market_conversion/target/test-classes:/Users/user/Documents/code/sport_betting_market_conversion/target/classes:/Users/user/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar:/Users/user/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/Users/user/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar:/Users/user/.m2/repository/com/fasterxml/jackson/module/jackson-module-kotlin/2.20.0/jackson-module-kotlin-2.20.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/2.0.21/kotlin-reflect-2.0.21.jar:/Users/user/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/Users/user/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/user/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/Users/user/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/user/.m2/repository/org/mockito/mockito-core/5.19.0/mockito-core-5.19.0.jar:/Users/user/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.6/byte-buddy-agent-1.17.6.jar:/Users/user/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.2.0/kotlin-stdlib-jdk8-2.2.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar:/Users/user/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.2.0/kotlin-stdlib-jdk7-2.2.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-test/2.2.0/kotlin-test-2.2.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IL"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/user/Documents/code/sport_betting_market_conversion/target/surefire/surefirebooter-20251005183517190_3.jar /Users/user/Documents/code/sport_betting_market_conversion/target/surefire 2025-10-05T18-35-17_162-jvmRun1 surefire-20251005183517190_1tmp surefire_0-20251005183517190_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/user/Documents/code/sport_betting_market_conversion/target/test-classes:/Users/user/Documents/code/sport_betting_market_conversion/target/classes:/Users/user/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar:/Users/user/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar:/Users/user/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar:/Users/user/.m2/repository/com/fasterxml/jackson/module/jackson-module-kotlin/2.20.0/jackson-module-kotlin-2.20.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/2.0.21/kotlin-reflect-2.0.21.jar:/Users/user/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.13.4/junit-jupiter-api-5.13.4.jar:/Users/user/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/user/.m2/repository/org/junit/platform/junit-platform-commons/1.13.4/junit-platform-commons-1.13.4.jar:/Users/user/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/user/.m2/repository/org/mockito/mockito-core/5.19.0/mockito-core-5.19.0.jar:/Users/user/.m2/repository/net/bytebuddy/byte-buddy/1.17.6/byte-buddy-1.17.6.jar:/Users/user/.m2/repository/net/bytebuddy/byte-buddy-agent/1.17.6/byte-buddy-agent-1.17.6.jar:/Users/user/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.2.0/kotlin-stdlib-jdk8-2.2.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar:/Users/user/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.2.0/kotlin-stdlib-jdk7-2.2.0.jar:/Users/user/.m2/repository/org/jetbrains/kotlin/kotlin-test/2.2.0/kotlin-test-2.2.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/user/Documents/code/sport_betting_market_conversion"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/user/Documents/code/sport_betting_market_conversion/target/surefire/surefirebooter-20251005183517190_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
+    <property name="user.name" value="user"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/user/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/9v/k8hjlvkd6t53v_qshz348hh80000gp/T/"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="/Users/user/Documents/code/sport_betting_market_conversion"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/user/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.7+8-LTS-245"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="exceptionOnBlankMarketName" classname="com.project.converter.ConverterAppTest" time="0.082"/>
+  <testcase name="exceptionOnUnknownTotalSelection" classname="com.project.converter.ConverterAppTest" time="0.007"/>
+  <testcase name="testFullJsonExample" classname="com.project.converter.ConverterAppTest" time="0.005"/>
+  <testcase name="exceptionOnBlankEventId" classname="com.project.converter.ConverterAppTest" time="0.002"/>
+  <testcase name="testBttsMarket" classname="com.project.converter.ConverterAppTest" time="0.002"/>
+  <testcase name="testTotalFirstHalf" classname="com.project.converter.ConverterAppTest" time="0.002"/>
+  <testcase name="testTotalIntegerSpecifier" classname="com.project.converter.ConverterAppTest" time="0.001"/>
+  <testcase name="testSpecifiersJsonShape" classname="com.project.converter.ConverterAppTest" time="0.011"/>
+  <testcase name="exceptionOnEmptySelections" classname="com.project.converter.ConverterAppTest" time="0.002"/>
+  <testcase name="testTotalDecimalSpecifier" classname="com.project.converter.ConverterAppTest" time="0.001"/>
+  <testcase name="exceptionOnUnknownHandicapSelection" classname="com.project.converter.ConverterAppTest" time="0.001"/>
+  <testcase name="testHandicapHalfMarkets" classname="com.project.converter.ConverterAppTest" time="0.002"/>
+  <testcase name="testCaseInsensitiveAndOrder" classname="com.project.converter.ConverterAppTest" time="0.001"/>
+  <testcase name="testHandicapSpecifierAbsolute" classname="com.project.converter.ConverterAppTest" time="0.002"/>
+</testsuite>
