@@ -26,7 +26,7 @@ abstract class MarketMapper(
             specValue
         )
 
-        val outSelections = inMarket.selections.mapNotNull { inSelection ->
+        val outSelections = inMarket.selections.map { inSelection ->
             mapSelection(inSelection, marketUid)
         }
 
@@ -40,5 +40,5 @@ abstract class MarketMapper(
 
 
     // Each mapper defines how to transform a single InSelection.
-    protected abstract fun mapSelection(inSelection: InSelection, marketUid: String): OutSelection?
+    protected abstract fun mapSelection(inSelection: InSelection, marketUid: String): OutSelection
 }
