@@ -34,7 +34,7 @@ abstract class MarketMapper(
             marketUid = marketUid,
             marketTypeId = this@MarketMapper.marketTypeId,
             specifiers = specifiers,
-            selections = outSelections.toMutableList()
+            selections = outSelections.toList()
         )
     }
 
