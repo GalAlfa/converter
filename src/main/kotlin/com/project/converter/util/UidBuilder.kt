@@ -10,7 +10,4 @@ object UidBuilder {
             "${eventId}_${marketTypeId}"
         }
     }
-
-    fun buildSelectionUid(marketUid: String, selectionTypeId: Int): String =
-        "${marketUid}_$selectionTypeId"
 }
